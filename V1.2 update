@@ -1,0 +1,199 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Air HUB",
+   LoadingTitle = "Air HUB is loading please wait",
+   LoadingSubtitle = "by Air/eNPC_LeaderAir (eNPC_Leaderir#9031)",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "AirGodz Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "85wenqp3", -- The Discord invite code, do not include discord.gg/
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Air HUB",
+      Subtitle = "Key System",
+      Note = "Join the discord (https://discord.gg/85wenqp3)",
+      FileName = "Air",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Air is a God"
+   }
+})
+
+local Tab = Window:CreateTab("main", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Games")
+
+local Button = Tab:CreateButton({
+   Name = "Outlaster GUI (HAS/ NEEDS KEY 3 CHECKPOINTS)",
+   Callback = function()
+   repeat task.wait()until game:IsLoaded()if not IrisNotificationMrJack then loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/hey/main/Misc./iris%20notification%20function")()elseif IrisNotificationUserMrJack then IrisNotificationUserMrJack.ClearAllNotifications()end;IrisNotificationMrJack(1,"Key System","Executed! Please wait...",9e9)task.wait(0.4)getgenv().gameslink="https://raw.githubusercontent.com/thedragonslayer2/Supported-Games/main/Mr%20Jack"loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Breaking Point GUI",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "All games admin command",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arsenal GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bedwars GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Doors GUI V.1.0",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Doors GUI V.Bad",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/neverlose.xyz/main/Doors.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Doors GUI V.entity spawner",
+   Callback = function()
+   loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Doors GUI V.Old looks",
+   Callback = function()
+   loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Evade GUI",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Pet Sim X GUI",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Da Hood GUI",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/grekkk/relases/main/zapped.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blox Fruits GUI",
+   Callback = function()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Murder Mystery 2 GUI",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "A Universal Time",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Combat Warriors GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blox Fruits GUI v2",
+   Callback = function()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Phantom forces",
+   Callback = function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/phantom-forces-new/main/noob"), true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Phantom forces V2",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Adopt me ALL PETS",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Pls Donate AUTOFARM/ROBUX",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ALL GAMES HUB USE THIS ONE IF A GAME THAT U WANT TO EXPLOIT ON ISNT ON HERE AKA PIXEL PIECE, SURVIVAL ETC",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Adopt me FE MEGA/NEON PET SCRIPT WORKING",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/adoptmegui1'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Pet Sim X Dupe/All pets",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/kOapps1/roblox/main/psx"))();
+   end,
+})
